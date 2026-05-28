@@ -1,0 +1,20 @@
+{
+  "name": "to-do-samuel-ayadi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SamAY4207/To-Do-Samuel-AYADI#readme",
+  "bugs": {
+    "url": "https://github.com/SamAY4207/To-Do-Samuel-AYADI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamAY4207/To-Do-Samuel-AYADI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
