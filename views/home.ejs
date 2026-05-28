@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World <%= user.prenom%> <%=user.nom%> </h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid atque corrupti veniam modi quod, tempora assumenda nobis quisquam vel nihil a culpa molestiae sed recusandae. Excepturi aliquid eius iure incidunt?</p>
+    <h1>Mes Todo</h1>
+    <a href="/ajouter/">Ajouter</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Deadline</th>
+                <th>Priorité</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tr>
+            <td>Faire le comit</td>
+            <td>27/05/2026 à 13h</td>
+            <td>Haute</td>
+            <td><a href="/modifier/">Modifer</a>
+            <a href="/supprimer/">Supprimer</a></td>
+        </tr>
+    </table>
     
 </body>
 </html>
